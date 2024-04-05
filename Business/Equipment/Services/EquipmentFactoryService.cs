@@ -1,15 +1,16 @@
 using Autofac;
 using DungeonAssistant.Business.Commons.Models;
-using DungeonAssistant.Business.Equipment.Interfaces;
-using DungeonAssistant.Business.Equipment.Models;
+//using DungeonAssistant.Business.Equipment.Interfaces;
+//using DungeonAssistant.Business.Equipment.Models;
 
-namespace DungeonAssistant.Business.Equipment.Services;
+//namespace DungeonAssistant.Business.Equipment.Services;
 
-public class EquipmentFactoryService : IEquipmentFactoryService
-{
+//public class EquipmentFactoryService : IEquipmentFactoryService
+//{
 
-    public IEquipmentModel GetEquipment()
-    {
-        return (Application.Current as App)?.Host?.Services.GetRequiredService<IEquipmentModel>();
-    }
-}
+//    public IEquipmentModel GetEquipment()
+//    {
+//        return (Application.Current as App)?.Services.GetRequiredService<IEquipmentModel>();
+//    }
+//}
+//Todo: Implement EquipmentFactoryService

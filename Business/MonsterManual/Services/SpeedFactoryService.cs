@@ -14,7 +14,12 @@ public class SpeedFactoryService : ISpeedFactoryService
 
     public ISpeedModel GetSpeed()
     {
-        return (Application.Current as App)?.Host?.Services.GetRequiredService<ISpeedModel>();
-        //return _scope.Resolve<ISpeedModel>();
+        throw new NotImplementedException();
     }
+
+    //public ISpeedModel GetSpeed()
+    //{
+    //    //return (Application.Current as App)?.Host?.Services.GetRequiredService<ISpeedModel>();
+    //    //return _scope.Resolve<ISpeedModel>();
+    //}
 }

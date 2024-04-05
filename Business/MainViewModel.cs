@@ -1,7 +1,10 @@
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using DungeonAssistant.Business.ActorCatalog.Interfaces;
 using DungeonAssistant.Business.Commons.Interfaces;
 using DungeonAssistant.Business.Equipment.Interfaces;
 using DungeonAssistant.Business.MonsterManual.Interfaces;
+using System.Windows.Input;
 
 namespace DungeonAssistant.Business;
 
